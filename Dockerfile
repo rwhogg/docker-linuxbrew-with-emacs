@@ -1,4 +1,4 @@
 FROM linuxbrew/linuxbrew
 
 RUN sudo apt-get update
-RUN sudo apt-get install emacs-nox
+RUN yes | sudo apt-get install emacs23-nox
